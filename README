@@ -1,3 +1,5 @@
-This information is about the info.sh file.
-This file shows network information.
-To use it, you can write the command ./info.sh on your terminal
+This information is about the usernfo.sh file.
+
+This file has been edited and contains user information
+
+To use it, you can write the command ./userinfo.sh on your terminal
