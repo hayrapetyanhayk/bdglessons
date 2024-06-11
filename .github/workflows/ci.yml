@@ -12,4 +12,4 @@ jobs:
       - name: BUILD JS APP
         run: |
           cd app
-          docker build -t ja_app:1.0.0
+          docker build -t ja_app:1.0.0 .
