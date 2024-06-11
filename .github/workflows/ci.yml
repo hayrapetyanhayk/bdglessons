@@ -1,0 +1,13 @@
+name: Workflow for js app
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs_on: ubuntu-latest
+    steps: 
+      - name: BUILD JS APP
+        run: docker build -t JS_APP:1.0.0 app/Docerfile
