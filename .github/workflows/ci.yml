@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: BUILD JS APP
-        run: docker build -t js_app:1.0.0 app/Docerfile
+        run: docker build -t js_app:1.0.0 -f app/Docerfile
